@@ -1,3 +1,10 @@
+# Set a sysctl key to a value, both as a live and persisted setting.
+#
+# Examples:
+#
+#    sysctl::set { 'key':
+#      value => 'desired_value'
+#    }
 define sysctl::set($value) {
   require sysctl
 
