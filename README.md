@@ -1,9 +1,5 @@
 # SysCTL Puppet Module for Boxen
 
-Requires the following boxen modules:
-
-* `boxen`
-
 ## Usage
 
 ```puppet
@@ -16,3 +12,7 @@ sysctl::set { 'somekey':
 # we provide some defaults you can include
 include sysctl::ipforwarding
 ```
+
+## Required Puppet Modules
+
+* stdlib
